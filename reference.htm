@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -6,16 +6,21 @@
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-HTML Essential Training
-HTML Reference
-<ul>
+  <header>
+<h1>HTML Essential Training</h1>
+<h2>HTML Reference</h2>
+</header>
+<nav>
+<ul role="menu">
   <li><a href="intro.htm" title="Introduction to HTML">Introduction to HTML</a></li>
   <li><a href="syntax.htm" title="HTML syntax">HTML syntax</a></li>
   <li><a href="links.htm" title="Creating links">Creating links</a></li>
   <li><a href="reference.htm" title="HTML Reference">HTML reference</a></li>
   <li><a href="next.htm" title="Next steps">Next steps</a></li>
 </ul>
-<p>On this page you&rsquo;ll find a quick reference to common HTML terms and a table of frequently used <a href="#named">named character entities</a>.</p>
+</nav>
+<main>
+<p>On this page you&rsquo;ll find a quick reference to common HTML terms and a <a href="#chartable">table</a> of frequently used <a href="#named">named character entities</a>.</p>
 HTML Terms
 <dl>
   <dt>Attribute</dt>
@@ -61,9 +66,11 @@ HTML Terms
   <dt>W3C </dt>
   <dd>The W3C, or <b>World Wide Web Consortium</b>, is the standards body responsible for authoring the HTML specification. </dd>
 </dl>
-<table border="1" cellspacing="0" cellpadding="0" summary="A quick reference of named character entities, including an example of the character, a description, and the entity code.">
+</main>
+<nav>
+<table id="chartable"border="1" cellspacing="0" cellpadding="0" summary="A quick reference of named character entities, including an example of the character, a description, and the entity code.">
   <caption>
-Common Named Character Entities 
+<h3>Common Named Character Entities</h3>
   </caption>
   <tr>
     <th scope="col">Character </th>
@@ -71,7 +78,7 @@ Common Named Character Entities
     <th scope="col">Entity </th>
   </tr>
   <tr>
-    <td class="center"> </td>
+    <td class="center">&quat;</td>
     <td>double quotation mark</td>
     <td><b>&amp;quot;</b></td>
   </tr>
@@ -156,6 +163,9 @@ Common Named Character Entities
     <td><b>&amp;mdash;</b></td>
   </tr>
 </table>
+</nav>
+<footer>
 <p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+</footer>
 </body>
 </html>
